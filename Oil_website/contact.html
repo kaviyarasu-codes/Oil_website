@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Sri Lakshmi Narayana Oils Mill</title>
+    <meta name="description"
+        content="Get in touch with Sri Lakshmi Narayana Oils. Visit our store in Adyar, Chennai, or call us for pure wood-pressed oil orders. Wholesale inquiries welcome.">
+    <meta name="keywords"
+        content="contact sundaram oils, oil mill adyar, buy oil chennai, wholesale oil suppliers, customer support oil mill">
+    <link rel="canonical" href="https://www.sundaramoils.com/contact.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.sundaramoils.com/contact.html">
+    <meta property="og:title" content="Contact Us | Sri Lakshmi Narayana Oils">
+    <meta property="og:description"
+        content="Reach out to us for orders, inquiries, or visit our store in Chennai. We are here to serve you nature's best.">
+    <meta property="og:image" content="https://www.sundaramoils.com/assets/image/main_logo.png">
+
+    <link rel="shortcut icon" href="/assets/image/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- <link rel="stylesheet" href="./assets/css/main.css"> -->
+    <link rel="stylesheet" href="./assets/css/main-optimized.css">
+</head>
+
+<body>
+    <!-- OFFER BAR -->
+    <div class="offer-bar" id="offerBar">
+        <span class="offer-text" id="offerText"></span>
+        <span class="offer-close" onclick="closeOfferBar()">✕</span>
+    </div>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <div class="logo-placeholder">
+                        <img src="./assets/image/main_logo.png" alt="logo" height="100px" width="200px">
+                    </div>
+
+                </a>
+                <ul class="nav-links">
+                    <li class="close-btn"><i class="fas fa-times"></i></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header><br>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <ul class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <h2>Connect With Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Stay Connected with Pure Goodness</h3>
+                    <p>Whether you're exploring our products, seeking bulk supply, or wanting to learn more about the
+                        Sri Lakshmi Narayana Oil promise, our team is ready to help. Contact us through the form or the
+                        details listed below.</p>
+
+                    <div class="info-item fade-in">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Our Location</h3>
+                            <p>No 100, L.B Road, Adyar, Chennai -600 020</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item fade-in">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Phone Number</h3>
+                            <p>+91 91509 07800</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item fade-in">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Email Address</h3>
+                            <p>info@sundaramoils.com <br> sc.manishankar@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item fade-in">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Working Hours</h3>
+                            <p>Monday - Saturday: 9:30 AM - 1:30 PM - 4:00 PM - 9:00 PM<br>Sunday: 9:30 AM - 1:30 PM</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <div class="form-success" id="formSuccess">
+                        Thank you for your message! We'll get back to you soon.
+                    </div>
+                    <form id="contactForm" action="submit_contact.php" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name *</label>
+                                <input type="text" id="name" name="name" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email *</label>
+                                <input type="email" id="email" name="email" class="form-control" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Your Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" class="form-control" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <input type="text" id="subject" name="subject" class="form-control" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="inquiry">Inquiry Type</label>
+                            <select id="inquiry" name="inquiry" class="form-control">
+                                <option value="">Select an option</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="product">Product Information</option>
+                                <option value="wholesale">Wholesale/Bulk Orders</option>
+                                <option value="partnership">Partnership Opportunities</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your Message *</label>
+                            <textarea id="message" name="message" class="form-control" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2>Find Us</h2>
+            <div class="map-container fade-in">
+                <div class="map-placeholder">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h3>Our Location</h3>
+                    <p>No 100, L.B Road, Adyar, Chennai -600 020</p>
+                    <a href="https://maps.app.goo.gl/JofKysdQouxpfxNt8" target="_blank" class="btn"
+                        style="margin-top: 20px;">Open in Google Maps</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Business Hours -->
+    <section class="business-hours">
+        <div class="container">
+            <h2>Business Hours</h2>
+            <div class="hours-container fade-in">
+                <ul class="hours-list">
+                    <li>
+                        <span class="day">Monday - saturday</span>
+                        <span>9:30 AM - 1:30 PM & 4:00 PM - 9:00 PM</span>
+                    </li>
+                    <li>
+                        <span class="day">Sunday</span>
+                        <span> 9:30 AM - 1:30 PM</span>
+                    </li>
+                    <li>
+                        <span class="day">Holidays</span>
+                        <span>Special hours may apply</span>
+                    </li>
+                </ul>
+                <p style="text-align: center; margin-top: 20px; font-style: italic;">For urgent inquiries outside
+                    business hours, please call us <br> +91 91509 07800 </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2>PureOils FAQs for Our Customers</h2>
+            <div class="faq-container">
+                <div class="faq-item fade-in">
+                    <div class="faq-question">
+                        <span>How quickly does the Sri lakshmi narayana team respond?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We respond to all inquiries within 24 hours on business days. For urgent assistance, please
+                            reach us by phone during business hours.</p>
+                    </div>
+                </div>
+                <div class="faq-item fade-in">
+                    <div class="faq-question">
+                        <span>Can I order PureOils from outside the country?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We currently ship within the country and are exploring international options. Contact us to
+                            discuss overseas orders..</p>
+                    </div>
+                </div>
+                <div class="faq-item fade-in">
+                    <div class="faq-question">
+                        <span>Do you have a minimum requirement for wholesale purchases?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>The minimum wholesale order is 24 bottles, which can include any mix of our oils. For bulk
+                            purchases, we offer special discounts. Contact our sales team to learn more.</p>
+                    </div>
+                </div>
+                <div class="faq-item fade-in">
+                    <div class="faq-question">
+                        <span>Can I arrange a visit to your production facility?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Facility tours are occasionally available for wholesale partners and interested visitors.
+                            Contact us in advance to schedule.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Taste the Purity, Feel the Quality</h2>
+            <p>Become part of the growing community of Sri lakshmi narayana oil customers. Contact us to place your
+                order or explore our range of products.</p>
+            <a href="products.html" class="btn">View Our Products</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Sri lakshmi narayana oil</h3>
+                    <p>Delivering premium-quality oils crafted through traditional extraction methods to ensure the
+                        purest and most nutritious products for our customers.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Our Products</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Our Products</h3>
+                    <ul class="footer-links">
+                        <li><a href="products.html#groundnut">Groundnut Oil</a></li>
+                        <li><a href="products.html#coconut">Coconut Oil</a></li>
+                        <li><a href="products.html#gingelly">Gingelly Oil</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <ul class="footer-links">
+                        <li>
+                            <pre><i class="fas fa-map-marker-alt"></i> No 100, L.B Road, Adyar, Chennai 
+    Tamil Nadu - 600 020</pre>
+                        </li>
+
+                        <li><i class="fas fa-phone"></i> +91 91509 07800 </li>
+                        <li><i class="fas fa-envelope"></i> info@sundaramoils.com <br> <i class="fas fa-envelope"></i>
+                            sc.manishankar@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Sri lakshmi narayana oil. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <div class="whatsapp-float">
+        <div class="whatsapp-main" id="whatsappMain">
+            <i class="fab fa-whatsapp"></i>
+            <div class="whatsapp-badge">3</div>
+        </div>
+        <div class="whatsapp-options" id="whatsappOptions">
+            <a href="https://wa.me/919150907800?text=Hello!%20Thank%20you%20for%20reaching%20out%20to%20us.%20How%20can%20we%20assist%20you%20today?%20I'm%20interested%20in%20your%20products"
+                class="whatsapp-option sales" target="_blank">
+                <div class="option-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div class="option-text">
+                    <h4>Sales Inquiry</h4>
+                    <p>Get product information</p>
+                </div>
+            </a>
+            <a href="https://wa.me/919150907800?text=Hi!%20We%20are%20here%20to%20help%20you%20immediately.%20I%20need%20support%20with..."
+                class="whatsapp-option support" target="_blank">
+                <div class="option-icon">
+                    <i class="fas fa-headset"></i>
+                </div>
+                <div class="option-text">
+                    <h4>Customer Support</h4>
+                    <p>Get help with your order</p>
+                </div>
+            </a>
+            <a href="https://wa.me/919150907800?text=Hi!%20Thank%20you%20for%20choosing%20our%20wholesale%20service!%20I'm%20interested%20in%20wholesale%20pricing"
+                class="whatsapp-option wholesale" target="_blank">
+                <div class="option-icon">
+                    <i class="fas fa-industry"></i>
+                </div>
+                <div class="option-text">
+                    <h4>Wholesale Orders</h4>
+                    <p>Bulk pricing & partnerships</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
