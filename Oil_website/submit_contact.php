@@ -25,10 +25,12 @@ if (empty($name) || empty($email) || empty($message) || empty($phone)) {
 }
 
 // 2. Save Data to MySQL Database
-$db_host = 'localhost'; // Usually 'localhost' on shared hosting
-$db_user = 'u964291147_sundaramoils';
-$db_pass = 'Oils@2025';
-$db_name = 'u964291147_sundaramoils';
+// Credentials live in config.php (not in Git). Copy config.example.php to config.php on the server.
+require __DIR__ . '/config.php';
+$db_host = DB_HOST;
+$db_user = DB_USER;
+$db_pass = DB_PASS;
+$db_name = DB_NAME;
 
 $conn = new mysqli($db_host, $db_user, $db_pass, $db_name);
 
